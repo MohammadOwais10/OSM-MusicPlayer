@@ -638,12 +638,208 @@ footer{
 /***********END-OF-FOOTER*************************************************/
 
 
+/***************************************************************************
+****************************************************************************
+****************************************************************************
+****************************************************************************
+*************ARTISTS-DESIGN-SHEET-OF-2-HTML-PAGE******************************************/
+
+#artists-page{  /*******main*****/
+  width:auto;
+  height: auto;/*when dont need remove*/
+  display:inline-block;
+  position:absolute;
+  margin-top: 15vh;
+  z-index:1;
+  /*overflow:hidden;*/
+}
+/*****artists-section**/
+.artists-about{
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction:row;
+  position: relative;
+  background-repeat: inherit;
+  background-image: url(Images/Background/back-color\ \(13\).jpg);
+  z-index:2;
+  overflow:hidden;
+}
+
+.artists-image img{ /**IAMGE-OF-ARTISTS-ON-PAGE**/
+  height:70vh;
+  width: 30vw;
+ margin: 2rem;
+ min-width :400px;
+}
+.artists-details{
+  margin: 2rem;
+/* min-width: 450px;*/
+}
+.artists-details h1{
+ font-size:3.5rem ;
+ font-weight: 900;
+}
+.artists-details p{
+  margin-top: 0;
+ font-size:1.3rem ;
+ font-weight: 500;
+}
+ 
+#artists-button{  /**BUTTON-FOR-PLAY-ALL-SONGS-&-FOLLOW***/
+  width:68%;
+	display: flex;
+	flex-direction: row;
+	justify-content:space-between;
+	flex-wrap: wrap;
+	align-items: center;
+  text-align: center;
+}
+.artists-details .pf{ /**COLOR-OF-BUTTON-FOR-PLAY-ALL-SONGS-&-FOLLOW***/
+ border-radius: 10px;
+  background: linear-gradient(90deg,rgb(226, 150, 8),rgb(233, 12, 141));
+}
+
+/****ARTISTS-SONGS-LIST-DETAILS********/
+#artist-songs{
+  min-width: 473px;
+	height: 100%;
+	width:80%;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding-top: 3%;
+}
+#tracks{
+	font-family: helvetica, sans-serif;
+	font-size: 0.8rem;
+	margin-top: 0.5rem;
+}
+#song{
+	height: 12vh;
+	width: 95%;
+	min-width: 300px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	background-color: rebeccapurple;
+  border-radius:10px;
+	margin-bottom: 2%;
+  margin-left: 2%;
+}
+#song:hover{
+  color: yellow;
+  opacity: 0.8;
+}
+#song img{
+	height: 10vh;
+	width: 10vh;
+	margin-left: 2vw;
+  border-radius: 5px;
+}
+
+#song-number{
+	font-family: helvetica, sans-serif;
+	color: var(--font_color_2);
+    margin-left: 1vw;
+    font-size: 1rem;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 50%;
+}
+
+#icons{
+	height: auto;
+	width: 4vw;
+	color: var(--font_color_2);
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	justify-content: space-between;
+	padding-right: 2%;
+}
+#song-details{
+	font-family: helvetica, sans-serif;
+	color: var(--font_color_1);
+	font-weight: bold;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	margin:0 2vw;
+	font-size: 0.95rem;
+}
+#song-details author{
+	font-family: helvetica, sans-serif;
+	color: var(--font_color_2);
+	font-size: 0.8rem;
+	margin-top: 1vh;
+}
+
+#album,time{
+  display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+  font-family: helvetica, sans-serif;
+	color: var(--font_color_1);
+	font-weight: bold;
+  margin-left: 2.5vw;
+	font-size: 1rem;
+}
+
+/****ASIDE-OF-SINGLE-ARTISTS-PAGE***********************/
+#art{
+  margin-top: -158vh;
+	height: 100%;
+	width:20%;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding-top: 3%;
+}
+.queue-similar{
+  overflow: hidden;
+ /* height: 100vh;*/
+  border: 1.25rem solid rgb(148, 91, 6);
+  border-radius: 10px;
+ /* margin-top:-155vh;*/
+  /*margin-top:98vh;*/
+  background:linear-gradient(90deg,rgb(228, 20, 55),rgb(41, 94, 173))
+
+}
+#aside-see-all{
+  margin-right: 5px;
+  font-size: 1rem;
+  color: #b0bf1a;
+}
+.queue-image-2 img{
+  height:15vh;
+  width:8vw;
+  border-radius: 5px;
+  margin-left: 4px;
+}
+.queue-image-detail-2{
+    font-size: 1.3vh;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5vh;
+}
+#playlist-page{
+  background-image: url(Images/Background/back-color\ \(6\)\ -\ Copy.jpg);
+}
 
 /*****************************************************************
 ******************************************************************
 *****************************************************************
 *****************************************************************
-************************************/
+**************RESPONSIVE-FOR-BOTH-PAGE*************************/
 
 @media only screen and (max-width: 1290px) {
  .top-list{
@@ -753,3 +949,14 @@ footer{
  }
 }
 
+/***atists-page-responsive*/
+@media only screen and (max-width: 1000px) {
+  #artists-page{
+    display:block;
+  }
+  .artists-about{
+    height:100%;
+    display:flexbox;
+    flex-wrap: wrap;
+  }
+}
