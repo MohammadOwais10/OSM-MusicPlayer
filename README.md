@@ -4,7 +4,7 @@
 ## Functions/Features
    - Home Page
       - Cursor Section
-      - Different Section realted sonngs
+      - Different Section realted songs
         - Latest Songs
         - New Release Songs
         - Mood's Songs
@@ -27,10 +27,10 @@
       
 ## UI Design Screenshot
   *  Music Home Page
-![ui-img-ss](/SS/Homemusic.PNG)
-  
+![SS](/Images/Homemusic.PNG)
+
   *  Checked Task Message
-![ui-img-ss](/ui-img-ss/ui-git-desk-checked-1.png)
+![ui-img-ss](/Images/SS/)
   
   *  Add Task Lists
 ![ui-img-ss](/SS/ui-git-desk-lag.PNG)
