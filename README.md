@@ -27,17 +27,10 @@
       
 ## UI Design Screenshot
   *  Music Home Page
-<<<<<<< HEAD
-![SS](/Images/Homemusic.PNG)
-
-  *  Checked Task Message
-![ui-img-ss](/Images/SS/)
-=======
 ![Homemusic](https://user-images.githubusercontent.com/91982138/148607322-87a21203-99dd-49b1-b3a0-1c883ea8828e.PNG)
   
   *  Music Home Page 2
 ![Homemusic-2](https://user-images.githubusercontent.com/91982138/148607512-cb7125d5-bb87-4c44-8533-28dc40eae6e8.PNG)
->>>>>>> a0588cf11a61ef389827b5a8835d8ba338b059eb
   
   *  Artists Page
 ![Artists Page](https://user-images.githubusercontent.com/91982138/148607594-dfac4f76-4333-4a12-959f-828155b8db18.PNG)
