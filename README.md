@@ -1,5 +1,5 @@
 # OSM-MusicPlayer
-###Owais Studio Music(OSM) is online music player which is purely based on HTML and CSS only.
+##Owais Studio Music(OSM) is online music player which is purely based on HTML and CSS only.
 
 ## Functions/Features
    - Home Page
@@ -27,13 +27,23 @@
       
 ## UI Design Screenshot
   *  Music Home Page
+<<<<<<< HEAD
 ![SS](/Images/Homemusic.PNG)
 
   *  Checked Task Message
 ![ui-img-ss](/Images/SS/)
+=======
+![Homemusic](https://user-images.githubusercontent.com/91982138/148607322-87a21203-99dd-49b1-b3a0-1c883ea8828e.PNG)
   
-  *  Add Task Lists
-![ui-img-ss](/SS/ui-git-desk-lag.PNG)
+  *  Music Home Page 2
+![Homemusic-2](https://user-images.githubusercontent.com/91982138/148607512-cb7125d5-bb87-4c44-8533-28dc40eae6e8.PNG)
+>>>>>>> a0588cf11a61ef389827b5a8835d8ba338b059eb
+  
+  *  Artists Page
+![Artists Page](https://user-images.githubusercontent.com/91982138/148607594-dfac4f76-4333-4a12-959f-828155b8db18.PNG)
+
+  *  Artists Page 2
+![Artists Page-2](https://user-images.githubusercontent.com/91982138/148607633-986d22e2-d4d4-4c5b-bddc-830bfcf4d506.PNG)
 
   *  Responsive UI Design
-![ui-img-ss](/ui-img-ss/ui-git-pad-2-lag.png)
+![Artists Page Responsive](https://user-images.githubusercontent.com/91982138/148607729-950ea2cc-d6d4-4727-b2d1-21366e5bd250.PNG)
